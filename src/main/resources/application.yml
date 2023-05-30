@@ -11,7 +11,12 @@ spring:
 
     datasource:
         url: jdbc:h2:mem:testdb
+        username: sa
 
+    # H2 콘솔 활성화
     h2:
         console:
             enabled: true
+
+server:
+    port: 80
